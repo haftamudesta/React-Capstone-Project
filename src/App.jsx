@@ -1,10 +1,21 @@
-import { useState } from "react";
-import "./App.css";
+import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/navbar/Navbar';
+import Memes from './components/memes/memes';
+import MemesDetails from './components/memes/MemesDetails';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <></>;
+  return (
+    <>
+      <main>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Memes />} />
+          <Route path="/memesDetail/:memesId" element={<MemesDetails />} />
+        </Routes>
+      </main>
+    </>
+  );
 }
 
 export default App;

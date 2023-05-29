@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.memes__container1 {
+  background: rgb(210, 68, 210);
+}
+
+.memes__container2 {
+  background: rgb(92, 90, 92);
+}
+
+.memes__container1:hover {
+  border: 2px solid blueviolet;
+}
+
+.memes__container2:hover {
+  border: 2px solid blueviolet;
+}
+
+.image__itm {
+  width: 200px;
+  height: auto;
+}
+
+.input__container {
+  margin-left: 20%;
+  margin-top: 26px;
+  width: 400px;
+  border: none;
+  height: 40px;
+  background: rgb(243, 42, 243);
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.input__container input {
+  color: red;
+}

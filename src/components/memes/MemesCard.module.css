@@ -1,0 +1,18 @@
+.memes_container__card {
+  width: 50%;
+}
+
+.memes__card {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.image__itm {
+  max-width: 100%;
+}
+
+.back__icon {
+  color: #fff;
+  margin-left: 600px;
+}

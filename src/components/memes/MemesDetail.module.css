@@ -1,0 +1,21 @@
+.memes__card {
+  background: blueviolet;
+  display: flex;
+}
+
+.memes__image {
+  width: 40%;
+}
+
+.memes__content {
+  margin-left: -10%;
+}
+
+.memes__parametrs {
+  width: 100%;
+  margin-top: 100px;
+  background: violet;
+  padding-left: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

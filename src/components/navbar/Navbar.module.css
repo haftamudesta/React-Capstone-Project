@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(35, 21, 21);
+}
+
+.aleft__nv {
+  color: #fff;
+  font-size: 20px;
+}
+
+.midle__nav {
+  color: #fff;
+}
+
+.right__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+}
+
+.right__nav h4 {
+  margin-right: 30px;
+}
+
+.back__arrow {
+  color: #fff;
+  font-size: 40px;
+}
