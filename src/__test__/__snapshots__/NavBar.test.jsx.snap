@@ -7,6 +7,7 @@ exports[`Test NavContainer renders correctly 1`] = `
       className="aleft__nv"
     >
       <a
+        className="back__arrow"
         data-testid="back-arrow"
         href="/"
         onClick={[Function]}

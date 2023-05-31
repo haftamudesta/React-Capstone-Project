@@ -12,7 +12,7 @@ const NavBar = () => (
         </Link>
       </div>
       <div className={classes.midle__nav}>
-        <h1 data-testid="memes-title">Memes Generator</h1>
+        <h1 data-testid="memes-title">Memes</h1>
       </div>
       <div className={classes.right__nav}>
         <h4 data-testid="icon-michrophone">

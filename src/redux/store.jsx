@@ -3,7 +3,7 @@ import memesReducer from './memeSlice';
 
 const store = configureStore({
   reducer: {
-    memes: memesReducer,
+    memess: memesReducer,
   },
 });
 export default store;

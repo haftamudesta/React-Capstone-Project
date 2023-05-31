@@ -11,5 +11,8 @@ exports[`Test MemesContainer renders correctly 1`] = `
       value={Array []}
     />
   </div>
+  <div
+    className="grid"
+  />
 </div>
 `;

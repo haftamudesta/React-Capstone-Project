@@ -1,18 +1,21 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .memes__container1 {
-  background: rgb(210, 68, 210);
+  border-radius: 50px;
+  background: rgb(167, 15, 66);
 }
 
 .memes__container2 {
-  background: rgb(92, 90, 92);
+  border-radius: 50px;
+  background: rgb(238, 8, 85);
 }
 
 .memes__container1:hover {
-  border: 2px solid blueviolet;
+  border: 2px solid rgb(242, 9, 86);
 }
 
 .memes__container2:hover {
@@ -24,18 +27,53 @@
   height: auto;
 }
 
+.title__input {
+  background: palevioletred;
+}
+
 .input__container {
   margin-left: 20%;
-  margin-top: 26px;
   width: 400px;
   border: none;
   height: 40px;
   background: rgb(243, 42, 243);
-  color: #ffffff;
+  color: #fff;
   border-radius: 10px;
   margin-bottom: 16px;
 }
 
 .input__container input {
   color: red;
+}
+
+.memes__title {
+  font-size: 16pt;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .input__container input {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .input__container input {
+    font-size: 40px;
+  }
+
+  .memes__title {
+    font-size: 40px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .memes__title {
+    font-size: 40px;
+  }
 }

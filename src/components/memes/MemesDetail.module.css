@@ -1,21 +1,53 @@
 .memes__card {
-  background: blueviolet;
-  display: flex;
+  background: rgb(143, 17, 59);
+  border-radius: 20px;
+}
+
+.name__item {
+  margin-left: 10%;
 }
 
 .memes__image {
   width: 40%;
-}
-
-.memes__content {
-  margin-left: -10%;
+  margin-left: 25%;
 }
 
 .memes__parametrs {
-  width: 100%;
-  margin-top: 100px;
-  background: violet;
+  font-size: 20px;
+  background: rgb(75, 11, 33);
+  margin-left: 25%;
+  width: 200px;
+  border-radius: 16px;
   padding-left: 60px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .memes__parametrs {
+    font-size: 30px;
+  }
+
+  .name__item {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .memes__parametrs {
+    font-size: 35px;
+  }
+
+  .name__item {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .memes__parametrs {
+    font-size: 40px;
+  }
+
+  .name__item {
+    margin-left: 25%;
+  }
 }

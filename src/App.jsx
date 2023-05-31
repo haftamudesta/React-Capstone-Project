@@ -7,7 +7,7 @@ import MemesDetails from './components/memes/MemesDetails';
 function App() {
   return (
     <>
-      <main>
+      <main className="main__app">
         <Navbar />
         <Routes>
           <Route path="/" element={<Memes />} />

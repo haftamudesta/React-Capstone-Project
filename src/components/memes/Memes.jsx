@@ -7,7 +7,7 @@ import classes from './Memes.module.css';
 
 const Memes = () => {
   const navigate = useNavigate();
-  const { isLoading, memesData } = useSelector((state) => state.memes);
+  const { isLoading, memesData } = useSelector((state) => state.memess);
   const [renderedMemes, setRenderedMemes] = useState([]);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -22,22 +22,23 @@ const Memes = () => {
 
   const filteredMemes = memesData
     ? memesData.filter((item) => {
-        if (renderedMemes === '') {
-          return item;
-        }
+      if (renderedMemes === '') {
+        return item;
+      }
 
-        if (item.name.toLowerCase().includes(renderedMemes)) {
-          return item;
-        }
-        return null;
-      })
+      if (item.name.toLowerCase().includes(renderedMemes)) {
+        return item;
+      }
+      return null;
+    })
     : [];
   let colorPicker = true;
   let checkColor = 1;
 
   return (
     <div>
-      <div>
+      <div className={classes.title__input}>
+        <h1 className={classes.memes__title}>Memes Generator</h1>
         <input
           type="text"
           onChange={(e) => setRenderedMemes(e.target.value)}
@@ -50,8 +51,8 @@ const Memes = () => {
         {isLoading ? (
           <h1>Loading...</h1>
         ) : (
-          filteredMemes.length > 0 &&
-          filteredMemes.map((meme, index) => {
+          filteredMemes.length > 0
+          && filteredMemes.map((meme, index) => {
             checkColor += 1;
             if (checkColor === 3) {
               colorPicker = !colorPicker;
