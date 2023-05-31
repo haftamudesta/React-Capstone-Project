@@ -66,7 +66,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://space-traveler-hub-brii.onrender.com/)
+- [Live Demo](https://react-capstone-project.onrender.com/)
+
+-[Demonstration of the project](https://www.loom.com/share/c9852699e94a4402b988c3de192776f1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
