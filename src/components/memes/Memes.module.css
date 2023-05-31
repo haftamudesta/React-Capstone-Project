@@ -2,16 +2,21 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  scroll-snap-type: y mandatory;
 }
 
 .memes__container1 {
   border-radius: 50px;
   background: rgb(167, 15, 66);
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
 }
 
 .memes__container2 {
   border-radius: 50px;
   background: rgb(238, 8, 85);
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
 }
 
 .memes__container1:hover {
