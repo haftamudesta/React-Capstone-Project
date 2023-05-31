@@ -23,6 +23,7 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-undef": "off",
+    "import/extensions": "off",
     "no-unused-expressions": "off",
     "react/no-array-index-key": "off",
     "no-shadow": "off"
