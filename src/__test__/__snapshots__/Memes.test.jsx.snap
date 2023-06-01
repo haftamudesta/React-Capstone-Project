@@ -2,7 +2,14 @@
 
 exports[`Test MemesContainer renders correctly 1`] = `
 <div>
-  <div>
+  <div
+    className="title__input"
+  >
+    <h1
+      className="memes__title"
+    >
+      Memes Generator
+    </h1>
     <input
       className="input__container"
       onChange={[Function]}

@@ -5,7 +5,7 @@ exports[`Test MemesContainer renders correctly 1`] = `
   className="memes_container__card"
 >
   <h1
-    className="back__icon"
+    className="forward__icon"
   >
     <svg
       fill="currentColor"
@@ -30,12 +30,17 @@ exports[`Test MemesContainer renders correctly 1`] = `
   <img
     alt="memes"
     className="image__itm"
+    src={Object {}}
   />
-  <h1>
+  <h1
+    className="memes__name"
+  >
     Name:
     <span />
   </h1>
-  <p>
+  <p
+    className="box__content"
+  >
     Box Count:
     <span />
   </p>

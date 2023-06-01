@@ -47,7 +47,7 @@ const Memes = () => {
           className={classes.input__container}
         />
       </div>
-      <div className={classes.grid}>
+      <div className={classes.memes__grid__container}>
         {isLoading ? (
           <h1>Loading...</h1>
         ) : (
@@ -73,6 +73,7 @@ const Memes = () => {
                   image={meme.url}
                   name={meme.name}
                   boxCount={meme.box_count}
+                  className={classes.memes__cardItme}
                 />
               </div>
             );

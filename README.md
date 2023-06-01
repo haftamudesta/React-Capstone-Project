@@ -68,7 +68,7 @@
 
 - [Live Demo](https://react-capstone-project.onrender.com/)
 
--[Demonstration of the project](https://www.loom.com/share/c9852699e94a4402b988c3de192776f1)
+-[Demonstration of the project](https://www.loom.com/share/0c730ec4404b4f5fbb12a296dd03ced2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -183,6 +183,7 @@ If you like this project then don't forget to give a star ⭐ on this repository
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).**
+I would like to thank **![](https://www.behance.net/sakwadesignstudio).**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

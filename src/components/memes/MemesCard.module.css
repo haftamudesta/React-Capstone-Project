@@ -1,5 +1,5 @@
 .memes_container__card {
-  width: 50%;
+  max-width: 50%;
 }
 
 .memes__card {
@@ -9,7 +9,7 @@
 }
 
 .image__itm {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .forward__icon {
