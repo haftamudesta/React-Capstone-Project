@@ -14,7 +14,7 @@
 
 .forward__icon {
   color: #fff;
-  margin-left: 600px;
+  margin-left: 100px;
 }
 
 .memes__name {
@@ -30,6 +30,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .forward__icon {
+    margin-left: 400px;
+  }
+
   .memes__name {
     font-size: 20px;
   }
@@ -50,6 +54,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .forward__icon {
+    margin-left: 600px;
+  }
+
   .memes__name {
     font-size: 30px;
   }

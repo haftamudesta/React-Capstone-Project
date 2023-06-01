@@ -20,7 +20,7 @@ const MemesCard = ({ name, image, boxCount }) => (
 );
 
 MemesCard.defaultProps = {
-  image: {},
+  image: '',
   name: '',
   boxCount: '',
 };

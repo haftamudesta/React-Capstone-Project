@@ -2,7 +2,7 @@ import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import NavBar from '../components/navbar/Navbar';
+import NavBar from '../components/navbar/NavBar';
 import store from '../redux/store';
 
 it('Test NavContainer renders correctly', () => {

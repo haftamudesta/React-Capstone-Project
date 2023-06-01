@@ -19,7 +19,7 @@ exports[`Test MemesContainer renders correctly 1`] = `
     />
   </div>
   <div
-    className="grid"
+    className="memes__grid__container"
   />
 </div>
 `;

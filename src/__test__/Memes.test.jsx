@@ -2,7 +2,7 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import Memes from '../components/memes/memes';
+import Memes from '../components/memes/Memes';
 import store from '../redux/store';
 
 it('Test MemesContainer renders correctly', () => {

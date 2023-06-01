@@ -30,7 +30,7 @@ exports[`Test MemesContainer renders correctly 1`] = `
   <img
     alt="memes"
     className="image__itm"
-    src={Object {}}
+    src=""
   />
   <h1
     className="memes__name"
