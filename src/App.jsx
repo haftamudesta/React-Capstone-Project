@@ -1,18 +1,22 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import NavBar from './components/navbar/Navbar';
 import Memes from './components/memes/memes';
 import MemesDetails from './components/memes/MemesDetails';
+import store from './redux/store';
 
 function App() {
   return (
     <>
       <main className="main__app">
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Memes />} />
-          <Route path="/memesDetail/:memesId" element={<MemesDetails />} />
-        </Routes>
+        <Provider store={store}>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Memes />} />
+            <Route path="/memesDetail/:memesId" element={<MemesDetails />} />
+          </Routes>
+        </Provider>
       </main>
     </>
   );
