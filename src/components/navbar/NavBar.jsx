@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { IoIosArrowBack, IoIosSettings } from 'react-icons/io';
 import { BiMicrophone } from 'react-icons/bi';
-import classes from './NavBar.module.css';
+import classes from './Navbar.module.css';
 
 const NavBar = () => (
   <main>
