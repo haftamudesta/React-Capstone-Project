@@ -1,6 +1,7 @@
 .memes__card {
   background: rgb(143, 17, 59);
   border-radius: 20px;
+  width: 100%;
 }
 
 .name__item {
@@ -14,12 +15,28 @@
 
 .memes__parametrs {
   font-size: 20px;
-  background: rgb(75, 11, 33);
-  margin-left: 25%;
-  width: 200px;
-  border-radius: 16px;
-  padding-left: 60px;
-  padding-bottom: 20px;
+  background: rgb(242, 4, 83);
+}
+
+.memes__item {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.memes__parametr {
+  margin-left: 70%;
+}
+
+.memes__item__width {
+  background: rgb(82, 5, 31);
+}
+
+.memes__item__height {
+  background: rgb(231, 26, 94);
+}
+
+.memes__item__box {
+  background: rgb(133, 15, 54);
 }
 
 @media screen and (min-width: 768px) {
@@ -29,6 +46,10 @@
 
   .name__item {
     margin-left: 15%;
+  }
+
+  .memes__parametr {
+    margin-left: 85%;
   }
 }
 

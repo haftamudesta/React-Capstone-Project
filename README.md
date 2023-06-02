@@ -68,7 +68,7 @@
 
 - [Live Demo](https://react-capstone-project.onrender.com/)
 
--[Demonstration of the project](https://www.loom.com/share/0c730ec4404b4f5fbb12a296dd03ced2)
+-[Demonstration of the project](https://www.loom.com/share/edd23375f2034a19a2cab76d72e86255)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,8 +182,7 @@ If you like this project then don't forget to give a star ⭐ on this repository
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank **![](https://img.shields.io/badge/Microverse-blueviolet).**
-I would like to thank **![](https://www.behance.net/sakwadesignstudio).**
+I would like to thank **![Nelson Sakwa](https://www.behance.net/sakwadesignstudio)** the **![the author of the original design](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>).** for the project inspiration as required by the **![creative commons lisence](https://creativecommons.org/licenses/)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

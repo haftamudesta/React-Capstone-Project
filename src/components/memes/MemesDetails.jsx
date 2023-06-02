@@ -24,17 +24,19 @@ const MemesDetails = () => {
       </h1>
       <img src={filterMemes.url} alt="" className={classes.memes__image} />
       <div className={classes.memes__parametrs}>
-        <p>
-          Width:
-          {filterMemes.width}
+        <p className={classes.memes__item__width}>
+          Width
+          <span className={classes.memes__parametr}>{filterMemes.width}</span>
         </p>
-        <p>
-          Height:
-          {filterMemes.height}
+        <p className={classes.memes__item__height}>
+          Height
+          <span className={classes.memes__parametr}>{filterMemes.height}</span>
         </p>
-        <p>
+        <p className={classes.memes__item__box}>
           Box Count:
-          {filterMemes.box_count}
+          <span className={classes.memes__parametr}>
+            {filterMemes.box_count}
+          </span>
         </p>
       </div>
     </div>
