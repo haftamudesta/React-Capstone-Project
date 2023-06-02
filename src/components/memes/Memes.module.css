@@ -1,0 +1,105 @@
+.memes__grid__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.memes__container1 {
+  border-radius: 50px;
+  width: 150px;
+  height: auto;
+  background: rgb(167, 15, 66);
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+.memes__container2 {
+  border-radius: 50px;
+  width: 150px;
+  background: rgb(238, 8, 85);
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+
+.memes__container1:hover {
+  border: 2px solid rgb(242, 9, 86);
+}
+
+.memes__container2:hover {
+  border: 2px solid blueviolet;
+}
+
+.image__itm {
+  width: 100%;
+  height: auto;
+}
+
+.title__input {
+  background: palevioletred;
+}
+
+.input__container {
+  margin-left: 5%;
+  width: 200px;
+  border: none;
+  height: 40px;
+  background: rgb(243, 42, 243);
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.input__container input {
+  color: red;
+}
+
+.memes__title {
+  font-size: 5px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .memes__container1 {
+    width: 350px;
+  }
+
+  .memes__container2 {
+    width: 350px;
+  }
+
+  .input__container input {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .input__container input {
+    font-size: 40px;
+  }
+
+  .memes__container1 {
+    width: 480px;
+  }
+
+  .memes__container2 {
+    width: 480px;
+  }
+
+  .memes__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .memes__grid__container {
+    margin-right: 5%;
+  }
+
+  .input__container {
+    width: 400px;
+    margin-left: 10%;
+  }
+
+  .memes__title {
+    font-size: 40px;
+  }
+}

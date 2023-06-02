@@ -1,0 +1,9 @@
+#root {
+  margin: 0 auto;
+}
+
+.main__app {
+  background: rgb(228, 48, 108);
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test MemesContainer renders correctly 1`] = `
+<div>
+  <div
+    className="title__input"
+  >
+    <h1
+      className="memes__title"
+    >
+      Memes Generator
+    </h1>
+    <input
+      className="input__container"
+      onChange={[Function]}
+      placeholder="Search for a memes..."
+      type="text"
+      value={Array []}
+    />
+  </div>
+  <div
+    className="memes__grid__container"
+  />
+</div>
+`;
