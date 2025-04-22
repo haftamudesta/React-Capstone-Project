@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space Travelers' Hub <a name="about-project"></a>
+# 📖 Memes generator <a name="about-project"></a>
 
 **Memes generator** Gets an array of popular memes that may be captioned with Imgflip API. The size of this array and the order of memes may change at any time. When this description was written, it returned 100 memes ordered by how many times they were captioned in the last 30 days. Additional properties other than those listed below may be added in the future without warning, so do not assume the JSON structure of each meme will never have new properties.
 
